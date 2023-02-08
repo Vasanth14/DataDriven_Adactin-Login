@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LoginVerification_DataDriven]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginVerification(failed)">
+    <classes>
+      <class name="login.Login_Test">
+        <methods>
+          <include name="loginValidation"/>
+        </methods>
+      </class> <!-- login.Login_Test -->
+    </classes>
+  </test> <!-- LoginVerification(failed) -->
+</suite> <!-- Failed suite [LoginVerification_DataDriven] -->
